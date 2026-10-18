@@ -6,9 +6,7 @@
 
 CloudOps Guardian is a hands-on AWS project that monitors an EC2 instance and its NGINX web service. CloudWatch collects infrastructure metrics, alarms monitor thresholds, EventBridge Scheduler invokes a Lambda function every five minutes, and Lambda uses AWS Systems Manager Run Command to check NGINX and attempt a restart if it is not active. Amazon SNS is used for email alerts.
 
-<p align="center">
-  <img src="docs/architecture/cloudops-guardian-architecture.png" alt="CloudOps Guardian architecture, designed by Hitesh Patil" width="900">
-</p>
+![CloudOps Guardian architecture](architecture/architecture.png)
 
 ## Project goals
 
@@ -81,8 +79,6 @@ The CloudWatch dashboard `CloudOps-Guardian-Dashboard` contains line widgets for
 ## Documentation and evidence
 
 - 📄 [Full project documentation (PDF)](docs/CloudOps_Guardian_Project_Documentation.pdf)
-- 🏗️ [Architecture diagram](docs/architecture/cloudops-guardian-architecture.png)
-- 🖼️ [Screenshots](docs/screenshots/) — account IDs, resource identifiers, public IP, and email details are redacted.
 
 ## Project screenshots and evidence
 
