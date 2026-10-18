@@ -1,0 +1,16 @@
+# Secrets and credentials - never commit these
+*.pem
+*.key
+*.ppk
+.env
+.env.*
+credentials
+.aws/
+*.tfvars
+terraform.tfstate*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
