@@ -6,7 +6,7 @@
 
 CloudOps Guardian is a hands-on AWS project that monitors an EC2 instance and its NGINX web service. CloudWatch collects infrastructure metrics, alarms monitor thresholds, EventBridge Scheduler invokes a Lambda function every five minutes, and Lambda uses AWS Systems Manager Run Command to check NGINX and attempt a restart if it is not active. Amazon SNS is used for email alerts.
 
-![CloudOps Guardian architecture](architecture/architecture.png)
+![CloudOps Guardian architecture](cloudops-guardian-architecture.png)
 
 ## Project goals
 
